@@ -44,6 +44,7 @@ namespace Application.API.Controllers
                 {
                     return Created("", user);
                 }
+
                 else
                 {
                     return BadRequest();
